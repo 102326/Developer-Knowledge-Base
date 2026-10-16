@@ -1,0 +1,9 @@
+@use "./base.scss";
+
+// Anchor the full-width mobile menu to the viewport, outside the page's inset sidebar.
+@media (max-width: 800px) {
+  .page .explorer .explorer-content {
+    position: fixed;
+    padding-inline: 1rem;
+  }
+}
