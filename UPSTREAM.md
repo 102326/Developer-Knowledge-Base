@@ -25,3 +25,5 @@ These established majors support the configured hosted Ubuntu workflow. Newer ma
 The optional upstream docs/ reference website is omitted. Core Quartz source and its required templates remain intact. The upstream `npm run docs` helper therefore is not a project command; use `npx quartz build --serve` for this site.
 
 Quartz 5 Head.tsx imports CustomOgImagesEmitterName even when OG image generation is disabled. The upstream-pinned og-image plugin is therefore retained in the lockfile and installed, with enabled:false in site configuration.
+
+Local core compatibility fix: `quartz/components/pages/404.tsx` keeps a trailing slash on the home link so SPA navigation from 404 preserves relative links under a project subpath. `404.test.ts` covers root hosting and project base URLs with and without a trailing slash. Preserve this behavior when upgrading unless upstream supplies an equivalent fix.
