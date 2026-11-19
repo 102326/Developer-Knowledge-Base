@@ -5,7 +5,7 @@ type: reference
 status: reviewed
 publish: true
 draft: false
-updated: 2026-10-16
+updated: 2026-11-19
 ---
 
 # 文档导航
@@ -18,12 +18,18 @@ updated: 2026-10-16
 | 文件放在哪里、如何调用         | [创建与使用 Skill](../skills/create-and-use.md)       |
 | 文章怎样标明来源和适用范围     | [编写规范](../writing/editorial-guide.md)             |
 
+## 实际开发中遇到问题
+
+- Skill 能运行，但不知道新版本是否更好：[怎样判断一个 Skill 真的有用](../skills/evaluate-a-skill.md)。
+- 设置不一致、迁移后旧逻辑没退场：[小型仓库的持续维护与 Agent 协作](../engineering/repository-maintenance.md)。
+- 构建通过但部署后路径有误：[构建通过，为什么 404 返回后链接却坏了](../engineering/check-deployed-subpath.md)。
+
 ## 后续专题
 
 按实际资料准备情况增加，不把目录当作交付承诺：
 
 - references、scripts、assets 的组织方法。
-- Skill 的触发、输出与维护问题。
+- 更多 Skill 维护案例。
 - DoL / SugarCube / ModLoader 技术参考。
 - 构建、调试、兼容与发布方法。
 - 可以独立理解的真实工程案例。

@@ -5,7 +5,7 @@ type: how-to
 status: reviewed
 publish: true
 draft: false
-updated: "2026-10-16"
+updated: "2026-11-19"
 ---
 
 # 创建与使用 Skill
@@ -157,6 +157,8 @@ $readme-check 核对当前项目 README.md 引用的本地文件路径，只报�
 - **执行**：确实读取 README，并核查了报告中列出的目标文件。
 
 仅凭结果正确，不能证明使用了技能；仅凭“已使用 readme-check”的文字，也不能证明读过文件。界面未展示加载信息时，应记录这一可观察性限制，不编造工具轨迹。
+
+如果要比较改版前后的行为，而不只是确认这次有没有加载，请见[怎样判断一个 Skill 真的有用](evaluate-a-skill.md)。
 
 ## 常见问题
 

@@ -18,12 +18,14 @@ updated: 2026-11-19
 - [Skill、Prompt 与 MCP](skills/skill-prompt-mcp.md)：职责区别与配合方式。
 - [SKILL.md 结构](skills/skill-md.md)：元数据、正文与资源组织。
 - [创建与使用 Skill](skills/create-and-use.md)：目录、完整示例、调用和常见问题。
+- [怎样判断一个 Skill 真的有用](skills/evaluate-a-skill.md)：用小组对照案例检查触发、执行和结果。
 
 示例用于解释用法，不是作业，也不要求逐篇完成。可以直接打开需要的章节。
 
 ## 工程实践
 
 - [小型仓库的持续维护与 Agent 协作](engineering/repository-maintenance.md)：权威实现、小步迁移、调试验证与旧实现清理。
+- [构建通过，为什么 404 返回后链接却坏了](engineering/check-deployed-subpath.md)：从一次子路径修复理解构建与部署验证的区别。
 
 ## 文库说明
 
