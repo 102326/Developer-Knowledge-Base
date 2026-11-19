@@ -5,7 +5,7 @@ type: explanation
 status: reviewed
 publish: true
 draft: false
-updated: 2026-10-16
+updated: 2026-11-19
 ---
 
 # 开发者知识文库
@@ -21,10 +21,14 @@ updated: 2026-10-16
 
 示例用于解释用法，不是作业，也不要求逐篇完成。可以直接打开需要的章节。
 
+## 工程实践
+
+- [小型仓库的持续维护与 Agent 协作](engineering/repository-maintenance.md)：权威实现、小步迁移、调试验证与旧实现清理。
+
 ## 文库说明
 
 - [阅读说明](start/reading-guide.md)：适用环境、示例和验证范围。
 - [文档导航](start/navigation.md)：按问题找到合适文章。
 - [编写规范](writing/editorial-guide.md)：结构、术语、引用和维护方式。
 
-首版包含 Skill 技术文档。后续逐步加入 DoL、SugarCube、ModLoader 与工程案例，并说明来源和适用版本。技术说明已完成编辑审阅；具体宿主的运行覆盖以各篇文末说明为准。
+首版包含 Skill 技术文档。后续按资料准备情况加入 DoL、SugarCube、ModLoader 与更多工程案例，并说明来源和适用版本。技术说明已完成编辑审阅；具体宿主的运行覆盖以各篇文末说明为准。
